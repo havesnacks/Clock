@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clock-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 100%;
+}
+
+.day {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.time {
+    font-size: 2.5em;
+    color: #333333;
+}
+
+@media (max-width: 600px) {
+    .clock-container {
+        padding: 20px 30px;
+    }
+
+    .day {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    .time {
+        font-size: 2em;
+    }
+}
